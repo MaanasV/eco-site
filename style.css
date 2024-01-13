@@ -1,0 +1,63 @@
+.box {
+  width: 1320px;
+  height: 910px;
+}
+
+.box .macbook-air {
+  position: fixed;
+  width: 1320px;
+  height: 910px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #9747ff;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.box .property-default {
+  position: relative;
+  width: 1280px;
+  height: 832px;
+  top: 20px;
+  left: 20px;
+  background-color: #ffffff;
+}
+
+.box .overlap-group {
+  position: relative;
+  height: 748px;
+  top: 84px;
+  background-image: url(./img/image-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.box .text-wrapper {
+  position: absolute;
+  width: 376px;
+  top: 284px;
+  left: 452px;
+  font-family: "Jacques Francois", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .div {
+  position: absolute;
+  width: 521px;
+  top: 373px;
+  left: 380px;
+  font-family: "Knewave", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 70px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
